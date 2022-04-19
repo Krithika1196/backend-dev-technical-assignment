@@ -1,3 +1,13 @@
+
+Input Request format in POSTMAN:
+
+1. http://localhost:9080/api/fetchJukeboxes?settingId=b43f247a-8478-4f24-8e28-792fcfe539f5
+2. http://localhost:9080/api/fetchJukeboxes?settingId=b43f247a-8478-4f24-8e28-792fcfe539f5&modelName=jukebox&offset=2&pageLimit=10
+
+modelName filter input
+1. http://localhost:9080/api/fetchJukeboxes?settingId=515ef38b-0529-418f-a93a-7f2347fc5805&modelName=virtuo
+2. http://localhost:9080/api/fetchJukeboxes?settingId=515ef38b-0529-418f-a93a-7f2347fc5805&modelName=angelina
+
 (english version follows)
 
 # Affectation technique du Développeur Java
@@ -142,3 +152,4 @@ Returns a list of all the available jukebox settings. Each setting contains a li
 ## Submission
 
 Submit your assignment using a public github / gitlab / bitbucket repository (please don't use "touchtunes" in repo name or description) or a zip archive.
+
