@@ -50,7 +50,7 @@ public class JukeboxService {
                         for (JukeComponent jukeName : juke.getComponents()) {
                             componentNames.add(jukeName.getName());
                         }
-                    } else {
+                    } else if(modelName==null){
                         for (JukeComponent jukeName : juke.getComponents()) {
                             componentNames.add(jukeName.getName());
                         }
